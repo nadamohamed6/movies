@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+ 
+
+    <div id="sideBar">
+        
+
+
+        <div class="side-bar-content ">
+
+            <ul>
+                <div class="nav-list  ">
+                    <a href="#" id="NowPlaying">
+                        <li>Now playing</li>
+                    </a>
+                    <a href="#" id="Popular">
+                        <li>Popular</li>
+                    </a>
+                    <a href="#" id="TopRated">
+                        <li>Top Rated</li>
+                    </a>
+                    <a href="#" id="Trending">
+                        <li>Trending</li>
+                    </a>
+                    <a href="#" id="Upcoming">
+                        <li>Upcoming</li>
+                    </a>
+                    <a href="#contact" id="Contact">
+                        <li>Contact Us</li>
+                    </a>
+                </div>
+
+
+
+                <div class="side-bar-content-footer">
+                    <div class="icons mb-3">
+                        <i class="fa-brands fa-facebook p-1"></i>
+                        <i class="fa-brands fa-twitter p-1"></i>
+                        <i class="fa-solid fa-globe p-1"></i>
+
+
+                    </div>
+                    <div>
+                    <p class="">Copyright Â© 2019 All Rights Reserved.</p>
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+        <div class="nav-bar p-3 bg-white ">
+            <div class="logo">
+                <img class= "" src="images/logo (1).png" alt="logo">
+            </div>
+            <div class="main-icon">
+                <i class="fa-solid fa-bars" id="mainIcon"></i>
+            </div>
+            <div class="footer-icons p-1">
+                <div>
+                    <i class="fa-solid fa-globe "></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-share-nodes py-2"></i>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="container pt-4">
+
+
+        <header class="header-section mb-5">
+            <div class="row text-center pt-5">
+                <div class="col-md-6 wordbar">
+                    <input id="word" class=" w-75 p-2" type="text" placeholder="get movies by word... ">
+                </div>
+                <div class="col-md-6 searchbar">
+                    <input id="search" class="w-75 p-2" type="text" placeholder="search...">
+                </div>
+            </div>
+        </header>
+
+
+
+        <section id="displayWindow">
+            <div class="row" id="movie">
+                <!-- <div class="col-md-4  p-1">
+        <div class="imgBox">
+        <img  class="w-100 h-auto rounded" src="images/gOnmaxHo0412UVr1QM5Nekv1xPi.jpg" alt="">
+    
+        <div class="captionbox d-flex align-items-center">
+            <div class="caption">
+        <h2 >Cocaine Bear</h2>
+        <p>Inspired by a true story, an oddball group of cops, criminals, tourists and teens converge in a Georgia forest where a 500-pound black bear goes on a murderous rampage after unintentionally ingesting cocaine.</p>
+        <p>rate: 6.5</p>
+        <p>2023-02-22</p>
+        </div>
+        </div>
+        </div>
+    
+        
+    </div> -->
+
+
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <footer id="contact" class="m-5">
+            <h2 class="my-5 text-light">ContacUs...</h2>
+            <div class="row text-center mb-3">
+                <div class="col-md-6 ">
+                    <input id="name" class=" w-100 p-2 m-2 " type="text" placeholder="Enter Your Name " >
+<p class="d-none" id="notvalidName">Your Name Not Valid</p>
+                </div>
+                <div class="col-md-6">
+                    <input id="email" class=" w-100 p-2 m-2" type="text" placeholder="Enter Your Email ">
+                    <p class="d-none" id="notvalidEmail">entre valid email</p>
+
+                </div>
+                <div class="col-md-6">
+                    <input id="phone" class=" w-100 p-2 m-2" type="text" placeholder="Enter Your Phone ">
+                    <p class="d-none" id="notvalidPhone">entre valid phone</p>
+
+                </div>
+                <div class="col-md-6">
+                    <input id="age" class=" w-100 p-2 m-2" type="text" placeholder="Enter Your Age ">
+                    <p class="d-none" id="notvalidAge">entre valid Age</p>
+
+                </div>
+                <div class="col-md-6">
+                    <input id="password" class=" w-100 p-2 m-2" type="password" placeholder="Enter Password ">
+                    <p class="d-none" id="notvalidPassword">entre valid password *Minimum eight characters, at least one letter and one number:*</p>
+
+                </div>
+                <div class="col-md-6">
+                    <input id="repassword" class=" w-100 p-2 m-2" type="password" placeholder="Enter RePassword ">
+                    <p class="d-none" id="notvalidRePassword">entre valid password</p>
+
+                </div>
+                
+            </div>
+            <button class="btn btn-outline-danger disabled"id="submit">Submit</button>
+
+        </footer>
+    </div>
+
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
